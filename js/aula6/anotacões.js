@@ -12,3 +12,9 @@ let client name;
 
 // Utilizamos camelCase
 let fullName = 'Luiz Otávio';
+
+// Case-sensitive
+let clientName = 'Luiz';
+let clientname = 'Otávio';
+
+// Não podemos redeclarar variáveis com let
