@@ -18,3 +18,4 @@ let clientName = 'Luiz';
 let clientname = 'Otávio';
 
 // Não podemos redeclarar variáveis com let
+// Não utilize var, utilize let
