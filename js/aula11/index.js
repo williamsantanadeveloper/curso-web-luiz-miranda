@@ -36,6 +36,7 @@ console.log(contador);
 
 const number1 = 10;
 // const number2 = parseInt('5');
+// const number2 = parseFloat('5.2');
 const number2 = Number('5.2');
 
 console.log(number1 + number2);
