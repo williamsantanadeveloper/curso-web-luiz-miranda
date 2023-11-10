@@ -20,7 +20,7 @@ console.log(umaString.indexOf('Um', 3)); - Verifica se a string Um começa no in
 console.log(umaString.indexOf('o', 3)); - Verifica se a string o começa depois do índice 3 / saída: 7
 
 console.log(umaString.lastIndexOf('o')); - Começa de trás pra frente
-console.log(umaString.lastIndexOf('o')); - Verfica se a string o está atrás do índice 3 / saída: -1
+console.log(umaString.lastIndexOf('o', 3)); - Verfica se a string o está atrás do índice 3 / saída: -1
 
 UUtilizando expressões regulares
 console.log(umaString.match(/[a-z]/g)); Retorna todas as letras de a até o t / saída: [ 'm', 't', 'e', 't', 'o' ]
@@ -48,5 +48,11 @@ console.log(umaString.split(' ', 3)); Vai receber três resultados com o espaço
 
 console.log(umaString.toUpperCase()); todas as letras maiúsculas
 console.log(umaString.toLowerCase()); '''' '''''''''' minúsculas
+
+document.write(''); - Escrever algum texto na página
+
+window.document.body.innerHTML = 'Qualquer coisa'; - Também adiciona algum texto na página
+document.body.innerHTML += ' Escrever'; Adicionando mais um texto na página (Por conta do innerHTML substituir o texto anterior caso ele seja reatribuído)
+window.document.body.innerHTML = 'Qualquer coisa <br>'; - Utilizando tags html
 */
 
